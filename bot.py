@@ -6,7 +6,7 @@ load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
 
 async def start(update, context):
-    await update.message.reply_text("Hi Nigga 👦🏿")
+    await update.message.reply_text("Hi FOFO 👦🏿")
 
 async def echo(update, context):
     await update.message.reply_text(update.message.text)
